@@ -1,0 +1,23 @@
+/* Keypoint component prototype */
+div.keypoint {
+	align-items: center;
+	background-color: darken($border-bg-color, 5);
+	border-radius: $border-radius;
+	color: $fg-color !important;
+	cursor: default;
+	display: inline-flex;
+	font-size: ($normal-font-size * 2);
+	font-weight: $bold-font-weight;
+	height: 2em;
+	justify-content: center;
+	margin-bottom: $block-margin;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	width: 2em;
+}
+
+/* Keypoint component extensions */
+div.keypoint {
+}
